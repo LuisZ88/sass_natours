@@ -17,6 +17,18 @@
   </head>
 
   <body>
+    <div class="navigation"><input type="checkbox" class="navigation__checkbox" id="navi-toggle"><label for="navi-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
+    <div class="navigation__background">&nbsp;</div>
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation_item"><a href="" class="navigation__link">About Natours</a></li>
+        <li class="navigation_item"><a href="" class="navigation__link">Your beneficts</a></li>
+        <li class="navigation_item"><a href="" class="navigation__link">Popular Tours</a></li>
+        <li class="navigation_item"><a href="" class="navigation__link">Stories</a></li>
+        <li class="navigation_item"><a href="" class="navigation__link">Book now</a></li>
+      </ul>
+    </nav>
+    </div>
     <header class="header">
       <div class="header__logo-box">
         <img src="img/logo-white.png" alt="logo" class="header__logo" />
@@ -220,9 +232,114 @@
             </div>
           </div>
         </div>
-        <div class="u-center-text u-margin-bottom-big u-margin-top-huge"> <a href="#"class="btn btn--green">Discover all tours</a></div>
-       
+        <div class="u-center-text u-margin-bottom-big u-margin-top-huge">
+          <a href="#" class="btn btn--green">Discover all tours</a>
+        </div>
+      </section>
+      <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="./img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">we make people genuinely happy</h2>
+        </div>
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="img/nat-8.jpg" alt="Person" class="story__img" />
+              <figcaption class="story__caption">Mary Smith</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                ratione illum, nesciunt est consequuntur itaque cum magni quidem
+                alias velit cumque laborum similique magnam adipisci repellendus
+                deserunt modi quae consequatur!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img src="img/nat-9.jpg" alt="Person" class="story__img" />
+              <figcaption class="story__caption">Jack wilson</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                Wow! my life is competly different now
+              </h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                ratione illum, nesciunt est consequuntur itaque cum magni quidem
+                alias velit cumque laborum similique magnam adipisci repellendus
+                deserunt modi quae consequatur!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">Read all storys &rarr;</a>
+        </div>
+      </section>
+      <section class="section-book">
+        <div class="book">
+          <div class="book__form">
+            <h2 class="heading-secondary u-margin-bottom-small">
+              Start booking now
+            </h2>
+            <form action="#" class="form">
+              <div class="form__group">
+                <input
+                  id="name"
+                  type="text"
+                  class="form__input"
+                  placeholder="Full Name"
+                  required
+                /><label for="name" class="form__label">Full Name</label>
+              </div>
+              <div class="form__group">
+                <input
+                  id="email"
+                  type="email"
+                  class="form__input"
+                  placeholder="Email adress"
+                  required
+                />
+                <label for="email" class="form__label">Email adress</label></div>
+                <div class="form__group-r">
+                  <div class="form__radio-group"><input type="radio" class="form__radio-input" id="small" name="size">
+                  <label for="small" class="form__radio-label"><span class="form__radio-button"></span> Small tour group</label></div>
+                
+                <div class="form__radio-group"><input type="radio" class="form__radio-input" id="large" name="size">
+                  <label for="large" class="form__radio-label"><span class="form__radio-button"></span>Large tour group</label></div>
+                </div><div class="form__btn"><button class="btn btn--green">Next step -></button></div>
+              </div>
+              
+            </form>
+          </div>
+        </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__logo-box"><img src="img/logo-green-2x.png" alt="logo" class="footer__logo"></div>
+      <div class="footer__info">
+      <div class="footer__navigation"><ul class="footer__list">
+        <li class="footer__item"><a href="" class="footer__link">Company</a></li>
+        <li class="footer__item"><a href="" class="footer__link">Contact us</a></li>
+        <li class="footer__item"><a href="" class="footer__link">carrers</a></li>
+        <li class="footer__item"><a href="" class="footer__link">Privacy Policy</a></li>
+        <li class="footer__item"><a href="" class="footer__link">Terms</a></li>
+      </ul></div>
+      <div class="footer__copyright">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, rerum. Aliquid impedit velit nisi. Minus recusandae reprehenderit voluptate voluptatem facilis consectetur fuga? Nulla facere pariatur molestiae quisquam aut quidem eos?</div>
+    </div>
+    </footer>
   </body>
 </html>
